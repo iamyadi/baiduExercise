@@ -1,0 +1,37 @@
+/*三栏布局，左侧固定宽度300px，右侧固定宽度300px，中间部分宽度随浏览器宽度变化而自适应变化*/
+html,body{
+    margin: 0;
+    height: 100%;
+}
+.container,.left,.right,.main, #outMain{
+    height: 100%;
+}
+.left{
+    background-color: burlywood;
+}
+.right{
+    background-color: aquamarine;
+}
+.main{
+    background-color: darkseagreen;
+}
+
+/*以下是布局代码*/
+#outMain{
+    float: left;
+    width: 100%;
+}
+.left{
+    float: left;
+    width: 300px;
+    margin-left: -100%;
+}
+.right{
+    float: left;
+    width: 300px;
+    margin-left: -300px;
+}
+.main{
+    padding: 0 320px;
+}
+
