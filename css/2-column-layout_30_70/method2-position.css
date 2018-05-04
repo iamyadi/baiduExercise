@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.left{
+    background-color: burlywood;
+    height: 100%;
+}
+.right{
+    background-color: aquamarine;
+    height: 100%;
+}
+/*布局代码：*/
+.container{
+    /*该例子中无需下句话，如果布局嵌套在其他容器，而不是body，则需要给父容器设置position值。*/
+    position: relative;
+    height: 100%;
+}
+.left{
+    position: absolute;
+    width: 30%;
+}
+.right{
+    margin-left: 30%;
+}

@@ -1,0 +1,26 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.container{
+     height: 100%;
+ }
+.left{
+    background-color: burlywood;
+    height: 100%;
+}
+.right{
+    background-color: aquamarine;
+    height: 100%;
+}
+/*布局代码：*/
+.left{
+    float: left;
+    width: 30%;
+}
+.container{
+    overflow: auto;
+}
+.right{
+    overflow: auto;
+}
